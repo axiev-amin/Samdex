@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.DexFix" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>

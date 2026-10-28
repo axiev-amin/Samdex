@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:gravity="center_horizontal">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="DeX Gamepad Fix" android:textSize="28sp" android:textStyle="bold" android:layout_marginBottom="16dp"/>
+    <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Fix: OFF" android:textSize="18sp" android:layout_marginBottom="20dp"/>
+    <Button android:id="@+id/permission" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Разрешить изменение настроек"/>
+    <Button android:id="@+id/enable" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Включить FIX" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/disable" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Выключить FIX" android:layout_marginTop="12dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp"
+        android:text="Версия 1.0 — тестовый обход бага One UI 8.\n\nFix увеличивает системный таймаут экрана. В параметрах разработчика дополнительно включи «Не выключать экран во время зарядки» для наиболее надёжного результата в DeX."/>
+</LinearLayout>
